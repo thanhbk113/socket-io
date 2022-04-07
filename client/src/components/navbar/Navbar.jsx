@@ -40,7 +40,7 @@ const Navbar = ({ socket }) => {
   };
   return (
     <div className="navbar">
-      <span className="logo">Lama App</span>
+      <span className="logo">Socket App</span>
       <div className="icons">
         <div className="icon" onClick={() => setOpen(!open)}>
           <NotificationOutlined alt="notification" className="iconImg" />
